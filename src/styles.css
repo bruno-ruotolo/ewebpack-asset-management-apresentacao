@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(106, 106, 248);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.dados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+p {
+  color: rgb(178, 140, 213);
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+img{
+  top: 80px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  filter: opacity(0.1);
+}
